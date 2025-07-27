@@ -24,6 +24,8 @@ Contributions are welcome. Please fork the repository and submit pull requests w
 ![VENTE Preview](https://i.imgur.com/pyQMtXC.png)
 ![VENTE Preview](https://i.imgur.com/r5SSpvm.png)
 ![VENTE Preview](https://i.imgur.com/1HYIhXy.png)
+![VENTE Preview](https://i.imgur.com/2uBxgZY.png)
+
 
 Updater:
 ![VENTE Preview](https://i.imgur.com/2fj3cQf.png)
