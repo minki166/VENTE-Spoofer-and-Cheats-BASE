@@ -1,0 +1,405 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0F7E0D66-A1A7-4521-AFF8-6D4D83E57037}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>vente.My.MyApplication</StartupObject>
+    <RootNamespace>vente</RootNamespace>
+    <AssemblyName>vente</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>vente.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>vente.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>VENTE.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Guna.UI2">
+      <HintPath>..\..\..\..\Documents\Pliki Visual Studio\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AntiCrack.vb" />
+    <Compile Include="CHEATS\Fortnite\AimbotTab.Designer.vb">
+      <DependentUpon>AimbotTab.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CHEATS\Fortnite\AimbotTab.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CHEATS\Fortnite\FortniteIMGUI.Designer.vb">
+      <DependentUpon>FortniteIMGUI.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CHEATS\Fortnite\FortniteIMGUI.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CHEATS\Fortnite\MIscTab.Designer.vb">
+      <DependentUpon>MIscTab.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CHEATS\Fortnite\MIscTab.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CHEATS\Fortnite\VisualsTab.Designer.vb">
+      <DependentUpon>VisualsTab.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CHEATS\Fortnite\VisualsTab.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Discord-Sciprts\Cracking\Cracking.vb" />
+    <Compile Include="Discord-Sciprts\DiscordLoginLog.vb" />
+    <Compile Include="Discord-Sciprts\DiscordRegLog.vb" />
+    <Compile Include="Discord-Sciprts\LicensesMsg\ActivatedLicense.vb" />
+    <Compile Include="Discord-Sciprts\LicensesMsg\ActivationFailed.vb" />
+    <Compile Include="Discord-Sciprts\SpoofingLogs\SpoofingLogsDC.vb" />
+    <Compile Include="GetSS.vb" />
+    <Compile Include="LicenseSystem\Download_AccountLicenses.vb" />
+    <Compile Include="LicenseSystem\Download_AllLicenses.vb" />
+    <Compile Include="LicenseSystem\LicenseActivation.Designer.vb">
+      <DependentUpon>LicenseActivation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LicenseSystem\LicenseActivation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LicenseSystem\RemoveAndAddLicense.vb" />
+    <Compile Include="Login Pages\Scripts\CreateAccount.vb" />
+    <Compile Include="Login Pages\LoginPage.Designer.vb">
+      <DependentUpon>LoginPage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Login Pages\LoginPage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login Pages\RegisterPage.Designer.vb">
+      <DependentUpon>RegisterPage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Login Pages\RegisterPage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main Forms\Scripts\GetUserDetails.vb" />
+    <Compile Include="Main Forms\Tabs\CheatsTab\CheatsTab.Designer.vb">
+      <DependentUpon>CheatsTab.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Main Forms\Tabs\CheatsTab\CheatsTab.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main Forms\Tabs\CheatsTab\LoadCheatScript.vb" />
+    <Compile Include="Main Forms\Tabs\HomeTab\GetChangelogsAndNews.vb" />
+    <Compile Include="Main Forms\Tabs\HomeTab\HomeTab.Designer.vb">
+      <DependentUpon>HomeTab.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Main Forms\Tabs\HomeTab\HomeTab.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main Forms\VenteMain.Designer.vb">
+      <DependentUpon>VenteMain.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Main Forms\VenteMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Main Forms\Tabs\Tools\SPOOFER\SpooferPage.Designer.vb">
+      <DependentUpon>SpooferPage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Main Forms\Tabs\Tools\SPOOFER\SpooferPage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main Forms\Tabs\Tools\SPOOFER\Spoofing.Designer.vb">
+      <DependentUpon>Spoofing.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Main Forms\Tabs\Tools\SPOOFER\Spoofing.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VenteClient.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VenteClient.Designer.vb">
+      <DependentUpon>VenteClient.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="VenteData.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="CHEATS\Fortnite\AimbotTab.resx">
+      <DependentUpon>AimbotTab.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CHEATS\Fortnite\FortniteIMGUI.resx">
+      <DependentUpon>FortniteIMGUI.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CHEATS\Fortnite\MIscTab.resx">
+      <DependentUpon>MIscTab.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CHEATS\Fortnite\VisualsTab.resx">
+      <DependentUpon>VisualsTab.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LicenseSystem\LicenseActivation.resx">
+      <DependentUpon>LicenseActivation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login Pages\LoginPage.resx">
+      <DependentUpon>LoginPage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login Pages\RegisterPage.resx">
+      <DependentUpon>RegisterPage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main Forms\Tabs\CheatsTab\CheatsTab.resx">
+      <DependentUpon>CheatsTab.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main Forms\Tabs\HomeTab\HomeTab.resx">
+      <DependentUpon>HomeTab.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main Forms\VenteMain.resx">
+      <DependentUpon>VenteMain.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main Forms\Tabs\Tools\SPOOFER\SpooferPage.resx">
+      <DependentUpon>SpooferPage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main Forms\Tabs\Tools\SPOOFER\Spoofing.resx">
+      <DependentUpon>Spoofing.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VenteClient.resx">
+      <DependentUpon>VenteClient.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SmallLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MediumLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BigLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SmallLogo1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MediumLogoBlue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SmallLogoBlue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VenteTExtPng.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DcIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Discord New_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="CHEATS\MenuScript\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HomeUncolored.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HomeColored.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Target_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Target.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Processor_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Processor2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Processor_11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\User.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Signing A Document.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Certificate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fortnite.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Processor_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Unabridged Edition.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Processor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\More.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Checkmark_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SmallLogoBlue1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Center of Gravity.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fill Color.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\see.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Clrd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ClrdM.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Settings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Chest.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ChestColored.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Default.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Feets.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\feetsColored.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Head.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HeadCoored.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Legs.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LegsColored.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\targetoo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fort.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rust.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ok.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Info_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Load Cargo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="VENTE.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>

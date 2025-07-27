@@ -1,0 +1,52 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="newlic" Type="System.String" Scope="User">
+      <Value Profile="(Default)">﻿&lt;?php
+$licencja = $_GET['ID'];
+
+// Nazwa pliku, do którego chcemy dodać nową linię
+$filename = 'License.ini';
+
+// Tekst, który chcemy dodać jako nową linię
+$newLine = $licencja;
+
+// Otwieramy plik do zapisu w trybie "append" (dodajemy nową zawartość do końca pliku)
+$file = fopen($filename, 'a');
+
+// Dodajemy nową linię tekstu do pliku
+fwrite($file, "\n" . $newLine);
+
+// Zamykamy plik
+fclose($file);
+
+// Wyświetlamy komunikat o powodzeniu
+echo 'Done';
+?&gt;</Value>
+    </Setting>
+    <Setting Name="RM" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="newstatus" Type="System.String" Scope="User">
+      <Value Profile="(Default)">&lt;?php
+$licencja = $_GET['ID'];
+
+// Nazwa pliku, do którego chcemy zapisać nową licencję
+$filename = 'AccountStatus.ini';
+
+// Zapisujemy nową licencję do pliku, zastępując istniejącą zawartość
+file_put_contents($filename, $licencja);
+
+// Wyświetlamy komunikat o powodzeniu
+echo 'Done';
+?&gt;</Value>
+    </Setting>
+    <Setting Name="rmUser" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="rmPass" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+  </Settings>
+</SettingsFile>

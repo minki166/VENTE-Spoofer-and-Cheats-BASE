@@ -1,0 +1,261 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+vente
+</name>
+</assembly>
+<members>
+<member name="T:vente.My.Resources.Resources">
+<summary>
+  Klasa zasobu wymagająca zdefiniowania typu do wyszukiwania zlokalizowanych ciągów itd.
+</summary>
+</member>
+<member name="P:vente.My.Resources.Resources.ResourceManager">
+<summary>
+Zwraca buforowane wystąpienie ResourceManager używane przez tę klasę.
+</summary>
+</member>
+<member name="P:vente.My.Resources.Resources.Culture">
+<summary>
+  Przesłania właściwość CurrentUICulture bieżącego wątku dla wszystkich
+  przypadków przeszukiwania zasobów za pomocą tej klasy zasobów wymagającej zdefiniowania typu.
+</summary>
+</member>
+<member name="P:vente.My.Resources.Resources._Default">
+<summary>
+  Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:vente.My.Resources.Resources.BigLogo">
+<summary>
+  Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:vente.My.Resources.Resources.Center_of_Gravity">
+<summary>
+  Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:vente.My.Resources.Resources.Certificate">
+<summary>
+  Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:vente.My.Resources.Resources.Checkmark_1">
+<summary>
+  Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:vente.My.Resources.Resources.Chest">
+<summary>
+  Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:vente.My.Resources.Resources.ChestColored">
+<summary>
+  Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:vente.My.Resources.Resources.Clrd">
+<summary>
+  Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:vente.My.Resources.Resources.ClrdM">
+<summary>
+  Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:vente.My.Resources.Resources.DcIcon">
+<summary>
+  Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:vente.My.Resources.Resources.Discord_New_2">
+<summary>
+  Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:vente.My.Resources.Resources.Feets">
+<summary>
+  Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:vente.My.Resources.Resources.feetsColored">
+<summary>
+  Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:vente.My.Resources.Resources.Fill_Color">
+<summary>
+  Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:vente.My.Resources.Resources.Fort">
+<summary>
+  Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:vente.My.Resources.Resources.Fortnite">
+<summary>
+  Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:vente.My.Resources.Resources.Head">
+<summary>
+  Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:vente.My.Resources.Resources.HeadCoored">
+<summary>
+  Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:vente.My.Resources.Resources.HomeColored">
+<summary>
+  Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:vente.My.Resources.Resources.HomeUncolored">
+<summary>
+  Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:vente.My.Resources.Resources.Info_1">
+<summary>
+  Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:vente.My.Resources.Resources.Legs">
+<summary>
+  Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:vente.My.Resources.Resources.LegsColored">
+<summary>
+  Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:vente.My.Resources.Resources.Load_Cargo">
+<summary>
+  Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:vente.My.Resources.Resources.MediumLogo">
+<summary>
+  Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:vente.My.Resources.Resources.MediumLogoBlue">
+<summary>
+  Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:vente.My.Resources.Resources.More">
+<summary>
+  Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:vente.My.Resources.Resources.Ok">
+<summary>
+  Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:vente.My.Resources.Resources.Processor">
+<summary>
+  Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:vente.My.Resources.Resources.Processor_1">
+<summary>
+  Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:vente.My.Resources.Resources.Processor_11">
+<summary>
+  Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:vente.My.Resources.Resources.Processor_2">
+<summary>
+  Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:vente.My.Resources.Resources.Processor2">
+<summary>
+  Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:vente.My.Resources.Resources.Rust">
+<summary>
+  Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:vente.My.Resources.Resources.see">
+<summary>
+  Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:vente.My.Resources.Resources.Settings">
+<summary>
+  Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:vente.My.Resources.Resources.Signing_A_Document">
+<summary>
+  Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:vente.My.Resources.Resources.SmallLogo">
+<summary>
+  Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:vente.My.Resources.Resources.SmallLogo1">
+<summary>
+  Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:vente.My.Resources.Resources.SmallLogoBlue">
+<summary>
+  Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:vente.My.Resources.Resources.SmallLogoBlue1">
+<summary>
+  Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:vente.My.Resources.Resources.Target">
+<summary>
+  Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:vente.My.Resources.Resources.Target_2">
+<summary>
+  Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:vente.My.Resources.Resources.targetoo">
+<summary>
+  Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:vente.My.Resources.Resources.Unabridged_Edition">
+<summary>
+  Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:vente.My.Resources.Resources.User">
+<summary>
+  Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:vente.My.Resources.Resources.VenteTExtPng">
+<summary>
+  Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+</summary>
+</member>
+</members>
+</doc>
