@@ -8,7 +8,8 @@ VENTE is a professional loader designed for cheats and spoofers, now available a
 - **Open Source**: Freely accessible for customization and development.
 - **Auto-Updater**: Ensures the latest versions are always available.
 - **Security**: Includes measures to protect against unauthorized use.
-- **Own database/webhost server**: - you have to change 'edditdev.com' to urs domain."
+- **Own database/webhost server**: You have to change 'edditdev.com' to urs domain."
+- **Auto-Destruct-Loader**: Loader will be deleted after use, to make security 'pro' xD u can delete it
 
 ## Usage
 Developers can modify the source code to create personalized spoofers or cheats. Proper configuration of update servers and security settings is recommended for optimal performance.
@@ -23,3 +24,9 @@ Contributions are welcome. Please fork the repository and submit pull requests w
 ![VENTE Preview](https://i.imgur.com/pyQMtXC.png)
 ![VENTE Preview](https://i.imgur.com/r5SSpvm.png)
 ![VENTE Preview](https://i.imgur.com/1HYIhXy.png)
+
+Updater:
+![VENTE Preview](https://i.imgur.com/2fj3cQf.png)
+
+  # this source is made few years ago and im ashamed of this
+  
